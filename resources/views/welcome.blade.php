@@ -6,8 +6,8 @@
     <meta content="" name="description">
     <meta content="width=device-width, initial-scale=1, shrink-to-fit=no" name="viewport">
     <link href="https://fonts.googleapis.com/css2?family=MuseoModerno:wght@531&display=swap" rel="stylesheet">
-    <title>Best Devs - The Best Web Developers in Canada</title>
-    <link href="{{asset('assets/images/favicon.png')}}" rel="shortcut icon" type="image/png">
+    <title>Melbin Punchakkunnel Jossy - The Best Web Developers in Canada</title>
+    <link href="{{asset('assets/images/logo.png')}}" rel="shortcut icon" type="image/png">
     <link crossorigin="anonymous" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
           integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" rel="stylesheet">
     <link href="{{asset('assets/css/LineIcons.css')}}" rel="stylesheet">
@@ -73,8 +73,8 @@
             <div class="row">
                 <div class="col-lg-12">
                     <nav class="navbar navbar-expand-lg"><a class="navbar-brand" href="#"> <img
-                                alt="Tayyab Glass" height="50rem" src="{{asset('assets/images/logo.png')}}">
-                            <h2 class="d-inline f-mu align-bottom">Best Devs</h2></a>
+                                alt="Tayyab Glass" src="{{asset('assets/images/logo.png')}}">
+                            <h2 class="d-inline f-mu align-bottom">Melbin Jossy</h2></a>
                         <button aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"
                                 class="navbar-toggler" data-target="#navbarSupportedContent"
                                 data-toggle="collapse" type="button"><span class="toggler-icon"></span>
