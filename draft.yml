@@ -1,0 +1,22 @@
+models:
+  Site:
+    logo: longtext
+    favicon: longtext
+    smallText: string:400
+    title: string:400
+    countary: string:400
+    phone: string:400
+    email: string:400
+    address: string:400
+
+  Project:
+    title: string:400
+    image: longtext
+    description: longtext
+    published_at: nullable timestamp
+
+controllers:
+  Site:
+    resource
+  Project:
+    resource

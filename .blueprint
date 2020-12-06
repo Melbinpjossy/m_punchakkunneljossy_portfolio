@@ -1,0 +1,28 @@
+created:
+    - app/Http/Controllers/SiteController.php
+    - app/Http/Controllers/ProjectController.php
+    - database/factories/SiteFactory.php
+    - database/factories/ProjectFactory.php
+    - database/migrations/2020_12_06_180425_create_sites_table.php
+    - database/migrations/2020_12_06_180426_create_projects_table.php
+    - app/Site.php
+    - app/Project.php
+    - tests/Feature/Http/Controllers/SiteControllerTest.php
+    - tests/Feature/Http/Controllers/ProjectControllerTest.php
+    - app/Http/Requests/SiteStoreRequest.php
+    - app/Http/Requests/SiteUpdateRequest.php
+    - app/Http/Requests/ProjectStoreRequest.php
+    - app/Http/Requests/ProjectUpdateRequest.php
+    - resources/views/site/index.blade.php
+    - resources/views/site/create.blade.php
+    - resources/views/site/show.blade.php
+    - resources/views/site/edit.blade.php
+    - resources/views/project/index.blade.php
+    - resources/views/project/create.blade.php
+    - resources/views/project/show.blade.php
+    - resources/views/project/edit.blade.php
+updated:
+    - routes/web.php
+models:
+    Site: { logo: longtext, favicon: longtext, smallText: 'string:400', title: 'string:400', countary: 'string:400', phone: 'string:400', email: 'string:400', address: 'string:400' }
+    Project: { title: 'string:400', image: longtext, description: longtext, published_at: 'nullable timestamp' }
